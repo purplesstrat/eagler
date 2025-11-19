@@ -444,7 +444,7 @@ function preventMotion(event)
 let username = document.getElementById('username');
 let userchosen = false;
 if (userchosen === false && !localStorage.getItem("username")) {
-    fetch("https://genr8rs.com/api/Content/Fun/XboxNameGenerator?genr8rsUserId=1748114452.233968321c14391c2&_sGameGenre=any").then((response) => response.json()).then((data) => {
+    fetch("https://genr8rs.com/api/Content/Minecraft/NameGenerator?genr8rsUserId=1763590360.4869691e40d876dfe&_sNameLength=long").then((response) => response.json()).then((data) => {
         if (!data) {return};
         username.innerHTML = data._sResult;
         localStorage.setItem("username", data._sResult);
