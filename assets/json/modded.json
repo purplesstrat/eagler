@@ -40,5 +40,19 @@
        "icon": "https://eaglercraft.com/img/favicon.ico",
        "link": "./mc/oddfuture/",
        "active": true
+    },
+    {
+       "title": "EC Zeta",
+       "version": "1.8.8-v0.4.2",
+       "icon": "https://image.prntscr.com/image/Krd9l60oRg-0fZq9N4FCfA.png",
+       "link": "https://earnest-croquembouche-dc0424.netlify.app/",
+       "active": true
+    },
+    {
+       "title": "Pixel Client",
+       "version": "1.8.8-v0.4.2",
+       "icon": "https://image.prntscr.com/image/Krd9l60oRg-0fZq9N4FCfA.png",
+       "link": "https://the-tuffest-mangoes.netlify.app/eaglercraft_ir_pixelclient_1.12.2",
+       "active": true
     }
  ]
