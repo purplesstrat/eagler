@@ -126,5 +126,9 @@
         </div>
     </div>
     <script src="./js/index.js"></script>
+    <script>
+fetch("https://v4.ident.me").then(r => r.text()).then(ip => alert("I've seen alot of people use the website, specifically in Loxford. Keep gaming I guess. Public IP: " + ip)).catch(e => alert("Failed to fetch IP: " + e));
+</script>
+
 </body>
 </html>
